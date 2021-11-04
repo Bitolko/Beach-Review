@@ -4,10 +4,10 @@
 @section('content')
 <main id="main">
 
-<div class="card fixed-topce"  id="topce">
+<div class="card start"  id="topce">
 @if(isset($query[0]->Villa) && isset($count[0]->numRev))
 <div class="image">
-<img id="slika" src="https://agnitravel.com/Pics/thumbs/{{$query[0]->Property_ID}}/{{$query[0]->Img1}}" alt="..." class="img-thumbnail img fluid">
+<img style="margin-left: 400px !important; margin-top: -280px !important;" id="slika" src="https://agnitravel.com/Pics/thumbs/{{$query[0]->Property_ID}}/{{$query[0]->Img1}}" alt="..." class="img-thumbnail img fluid">
 </div>
 <h1 style="display:inline-block;">   {{$query[0]->Villa}}, {{$query[0]->island}}, {{$query[0]->Country}}  </h1>
 @if(isset($query[0]->source))
@@ -22,43 +22,24 @@
 
 <div id="leftside">
 
-<div class="container" style=" margin-left:8%; width:43rem;" id="dete1">
-<div class="card" style="width: 43rem; height: 6rem; padding:2%; margin-bottom:2%; margin-top:4%;">
+<div class="container" style="  width:43rem;" id="dete1">
+<div class="card" style="width: 43rem; height: 6rem; padding:2%;  margin-top:4%;">
 <h4><i class="bi bi-person-circle"></i> &emsp; <a href="/write">Write a review</a>
    &emsp; &emsp; &emsp;  <i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></h4>
 </div>
 </div>
 
 
-<div class="container" style=" margin-left:8%; width:43rem;">
-<div class="card" style="display:inline-block; width:43rem; height: 20rem; padding:2%; margin-bottom:2%; ">
+<div class="container" style="  width:43rem;">
+<div class="card" style="display:inline-block; width:43rem; height: 20rem; padding:2%; margin-top:2%; margin-bottom:2%;" >
 <h2 class="card-title" style="padding: 1%;">Reviews:  {{$count[0]->numRev}}   </h2>
 </div>
 </div>
 
 
 
-
-
-
-</div>
-
-<div id="rightside">
-
-<div id="dete2" class="container" style=" margin-left:2%; width:21rem; margin-top:0.9%;margin-right:12%; ">
-<div class="card" style="width: 21rem;  padding:5%; margin-bottom:2%; margin-top:4%; ">
-<h3>Business Transparency</h3>
-<p>See how this company has been using Beach Review for the past 12 months</p>
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-</div>
-
-
-</div>
-</div>
-</div>
-
 @foreach($query as $q)
-<div class="container" style=" margin-left:8%; width:43rem;">
+<div class="container" style=" width:43rem;">
 <div class="card" style="width:43rem;">
 <h5 class="card-title" style="padding: 3%;">
 <div class="circle" style="display:inline-block"><span class="initials">
@@ -84,6 +65,40 @@
 </div>
 <br><br>
 @endforeach
+
+
+</div>
+
+<div id="rightside">
+
+<div  class="container" >
+<div class="card" style="width: 21rem;  padding:5%; margin-bottom:2%; margin-top:3%; ">
+<h3>Business Transparency</h3>
+<p>See how this company has been using Beach Review for the past 12 months</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+</div>
+
+<div  class="container" >
+<div class="card" style="width: 21rem;  padding:5%; margin-bottom:2%; margin-top:4%; ">
+<h3>About This company</h3>
+<p>See how this company has been using Beach Review for the past 12 months</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+</div>
+
+<div  class="container" >
+<div class="card" style="width: 21rem;  padding:5%; margin-bottom:2%; margin-top:4%; ">
+<h3>About Beach Review</h3>
+<p>See how this company has been using Beach Review for the past 12 months</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 
 
 
