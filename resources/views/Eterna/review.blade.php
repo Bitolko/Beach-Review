@@ -49,15 +49,17 @@
 <br><br>
             @endforeach
 
+
+            <span>
+              {{$test}}
+            </span>
+
             <h1 id="text-to-search">{{ $a }}</h1>
             <h3>Reviews # : Score</h3>
             <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             <span>5.0</span> </article>
 
-            <article class="entry entry-single">
-            <i class="bi bi-person-circle" style='font-size:50px;'></i><span>&emsp; Write a review &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-            <i class="bi bi-star" style='font-size:50px;'></i> <i class="bi bi-star" style='font-size:50px;'></i> <i class="bi bi-star" style='font-size:50px;'></i> <i class="bi bi-star" style='font-size:50px;'></i> <i class="bi bi-star" style='font-size:50px;'></i>
-            </article>
+          
 
             <article class="entry entry-single">
               <h2 class="entry-title">
@@ -96,137 +98,13 @@
                   </div>
                 </div>
                 <br>
-                    <div class="container justify-content-center">
-                         <div class="row">
-                      <div class="col-md-8">
-                      <div class="input-group mb-3"> <input type="text" class="form-control input-text" placeholder="Search reviews" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <div class="input-group-append"> <button class="btn btn-outline-warning btn-lg" type="button"><i class="bi bi-search"></i></button> </div>
-                      </div>
-                     </div>
-                     </div>
-                    </div>
+                  
 
 
 
-
-              <div class="entry-footer">
-                <i class="bi bi-folder"></i>
-                <ul class="cats">
-                  <li><a href="#">Business</a></li>
-                </ul>
-
-                <i class="bi bi-tags"></i>
-                <ul class="tags">
-                  <li><a href="#">Creative</a></li>
-                  <li><a href="#">Tips</a></li>
-                  <li><a href="#">Marketing</a></li>
-                </ul>
-                         </div>
 
                         </article><!-- End blog entry -->
-
-                     <div class="blog-author d-flex align-items-center">
-                          <img src="Eterna/img/blog/male.png" class="rounded-circle float-left" alt="">
-                      <div>
-                      <h4>John Doe</h4> <div class="social-links"> <a href="#"><i class="bi bi-pen"></i> 1 Review</a><hr> </div> <h1>Stars</h1>
-                   <h3>Fantastic service!</h3>
-                      <p>
-                  Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                      </p>
-                  </div>
-                 </div><!-- End blog author bio -->
-
-                        <div class="blog-author d-flex align-items-center">
-                         <img src="Eterna/img/blog/female.png" class="rounded-circle float-left" alt="">
-                    <div>
-                     <h4>Jane Smith</h4>
-                     <div class="social-links">
-                         <a href="#"><i class="bi bi-pen"></i> 1 Review</a><hr>
-                     </div>
-                      <h1>Stars</h1>
-                      <h3>Fantastic service!</h3>
-                     <p>
-                       Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                      </p>
-                    </div>
-                      </div><!-- End blog author bio -->
-
-
-                                         <div class="blog-author d-flex align-items-center">
-                              <img src="Eterna/img/blog/male.png" class="rounded-circle float-left" alt="">
-                             <div>
-                              <h4>John Doe</h4> <div class="social-links">
-                                    <a href="#"><i class="bi bi-pen"></i> 1 Review</a><hr>
-                                             </div>
-                                                <h1>Stars</h1>
-                                     <h3>Fantastic service!</h3>
-                                     <p>
-                                   Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                                  </p>
-                                  </div>
-                                </div><!-- End blog author bio -->
-
-
-
-                            <div class="blog-author d-flex align-items-center">
-                         <img src="Eterna/img/blog/female.png" class="rounded-circle float-left" alt="">
-                        <div>
-                         <h4>Jane Smith</h4>
-                         <div class="social-links">
-                           <a href="#"><i class="bi bi-pen"></i> 1 Review</a><hr>
-                             </div>
-                        <h1>Stars</h1>
-                         <h3>Fantastic service!</h3>
-                         <p>
-                              Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                            </p>
-                        <hr>
-                                <!-- <i class="bi bi-hand-thumbs-up">&emsp;&emsp;<i class="bi bi-share"></i> -->
-                         </div>
-                             </div><!-- End blog author bio -->
-
-
-                         <!-- <div class="col-lg-4"> -->
-                      <div class="col-lg-4">
-                     <div class="sidebar">
-                              <h3 class="sidebar-title">Business Transparency</h3>
-                             <h6>Claimed their profile on:</h6>
-                     <h6>Additional verified company details</h6>
-                    <hr>
-                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-                        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-                         <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-                         <button class="btn btn-primary">See a detailed overview</button>
-                        </div>
-
-
-                     <div class="sidebar">
-                     <h3 class="sidebar-title">About the selected company</h3>
-                     <h6>Information written by the company</h6>
-                     <hr>
-                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-                       <br>
-                       <h3 class="sidebar-title">Contact</h3>
-                      <h6>info</h6>
-                       <br>
-                      <h3 class="sidebar-title">Category</h3>
-                     <h6>info</h6>
-
-
-                  <div class="sidebar">
-                     <h3 class="sidebar-title">About our company</h3>
-                          <h6>Information about our company</h6>
-                   <hr>
-                     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p><br>
-
-
-
-
-
-               </div><!-- End sidebar -->
-           </div><!-- End blog sidebar -->
-            </div>
+    
          </div>
         </section><!-- End Blog Single Section -->
 

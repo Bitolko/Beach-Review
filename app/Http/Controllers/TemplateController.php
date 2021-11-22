@@ -166,7 +166,8 @@ class TemplateController extends Controller
         ->Join('islands','islands.Island_id','=','Properties.Island')
         ->Join('Regions','Regions.Region_id','=','islands.Region')
         ->Join('Countries','Countries.Country_id','=','Regions.Country')
-        ->take(20)->get();
+        // ->take(20)->get();
+        ->simplePaginate(15);
 
 
 

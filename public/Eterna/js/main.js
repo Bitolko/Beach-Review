@@ -9,11 +9,18 @@ $(document).ready(function(){
     $(window).scroll(function(){
         let scrollPos=$(this).scrollTop();
         if(scrollPos>=200){
-            $('#topce').removeClass('start');
             $('#topce').addClass('fixed-topce');
+
+
+
+            
         } else if(scrollPos<200) {
             $('#topce').removeClass('fixed-topce');
-            $('#topce').addClass('start');
+   
+
+       
+
+   
          
         }
 

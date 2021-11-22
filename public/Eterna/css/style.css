@@ -2054,6 +2054,7 @@ i.bi-star:hover {
 
 #topce.start {
     padding-left: 16%;
+    padding-top: 1%;
     position: static;
     display: block;
     top: 70 px;
@@ -2070,13 +2071,14 @@ i.bi-star:hover {
 
 .fixed-topce {
  
-    position: fixed;
+    position: fixed !important;
     top: 7%;
-    width: 100%;
-    z-index: 1;
-    zoom:50%;
-    padding-left:16%;
-    height: 186px;
+    width: 100% !important;;
+    z-index: 1 !important;;
+    zoom:50% !important;;
+    padding-left:16% !important;;
+    padding-top: 0.5% !important;;
+    height: 186px !important;;
 }
 
 div.image {
@@ -2123,6 +2125,69 @@ div.parent{
     position: relative;
     top: 189px; */
 }
+
+.toph1{
+    color: #000032;
+    font-weight: bold;
+}
+
+.toph2{
+    color: #000032;
+    
+}
+
+
+.write{
+    color:rgb(56, 56, 255);
+    font-size: medium;
+}
+
+.rightSide{
+    font-size:1.3rem;
+}
+
+@media only screen and (min-device-width: 320px) {
+    .fixed-topce {
+        top: 0%;
+    }
+
+  /* .col-md-12{
+      margin-left:40%;
+  } */
+
+  .rightSide{
+      width:42rem !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .fixed-topce {
+        top: 6.5%;
+
+    }
+
+    /* .col-md-12{
+        margin-left:20%;
+    } */
+    .rightSide{
+        width:42rem !important;
+    }
+  }
+
+  @media only screen and (min-device-width: 1025px) {
+    .fixed-topce {
+        top: 7%;
+
+    }
+   
+
+    /* .col-md-12{
+        margin-left:0%;
+    } */
+  }
+
+
 
 
 

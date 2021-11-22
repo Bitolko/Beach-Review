@@ -40,8 +40,8 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="Eterna/img/team/team-v.jpg" alt="">
-              <h4>Vladimir Petroski</h4>
+              <img src="" alt="">
+              <h4></h4>
               <span>Web Designer</span>
               <p>
                 Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
@@ -57,8 +57,8 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="Eterna/img/team/team-i.png" alt="">
-              <h4>Igor Grceski</h4>
+              <img src="" alt="">
+              <h4></h4>
               <span>Fullstack Developer</span>
               <p>
                 Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
